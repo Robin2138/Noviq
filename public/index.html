@@ -19,66 +19,10 @@ h1{font-size:clamp(45px,6vw,76px);line-height:.98;letter-spacing:-4px;margin:20p
 .preview{background:linear-gradient(180deg,#ffffff10,#ffffff04);border:1px solid var(--line);border-radius:25px;padding:22px;box-shadow:0 30px 90px #0008}.previewtop{display:flex;justify-content:space-between;color:#8994ad;font-size:12px}.preview h3{font-size:23px;margin:18px 0 8px}.chips{display:flex;gap:7px;flex-wrap:wrap}.chip{background:#ffffff08;border:1px solid var(--line);padding:7px 10px;border-radius:9px;font-size:12px;color:#cad1df}.mock{display:flex;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);align-items:center}.pic{width:62px;height:62px;border-radius:14px;background:linear-gradient(135deg,#1c2339,#2a3350);display:grid;place-items:center;font-size:27px}.mock strong{display:block}.stars{font-size:12px;color:#ffc34d;margin-top:5px}.mock .price{margin-left:auto;font-weight:900}.note{font-size:11px;color:#7c879f;line-height:1.55;margin-top:15px}
 section{padding:70px 0}.head{max-width:720px;margin-bottom:27px}.eyebrow{color:#9f92ff;font-size:12px;text-transform:uppercase;letter-spacing:1.5px;font-weight:850}.head h2{font-size:clamp(31px,4vw,47px);letter-spacing:-2px;margin:8px 0 10px}.head p{color:var(--muted)}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:#ffffff06;border:1px solid var(--line);border-radius:20px;padding:22px}.icon{font-size:23px;margin-bottom:13px}.card h3{margin:0 0 7px}.card p{color:var(--muted);font-size:14px;line-height:1.55;margin:0}
-.advisor{background:linear-gradient(180deg,#ffffff0d,#ffffff04);border:1px solid var(--line);border-radius:25px;padding:25px}.bar{height:6px;background:#182039;border-radius:9px;overflow:hidden;margin-bottom:24px}.bar i{display:block;height:100%;width:33%;background:linear-gradient(90deg,var(--a),var(--b));transition:.25s}.q{font-size:27px;font-weight:900;letter-spacing:-1px;margin-bottom:17px}.opts{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.opt{text-align:left;border:1px solid var(--line);background:#ffffff05;color:#fff;padding:16px;border-radius:14px;cursor:pointer}.opt:hover,.opt.sel{border-color:#8d82ff;background:#7c5cff13}.field{margin:15px 0}.field label{display:block;font-size:13px;font-weight:800;margin-bottom:7px}.field input,.field textarea{width:100%;border:1px solid var(--line);background:#ffffff05;color:#fff;border-radius:13px;padding:13px;outline:none}.field textarea{resize:vertical}.row{display:flex;gap:10px;justify-content:space-between;margin-top:18px}.result{display:none}
-
-/* ⭐ FIX: Ergebnis-Karten NICHT mehr gequetscht */
-.resultitems{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:16px;
-  margin-top:20px;
-}
-
-.resultbox{
-  background:#27d8c70d;
-  border:1px solid #27d8c72d;
-  border-radius:18px;
-  padding:24px;
-}
-
-.resultbox h3{margin:7px 0}
-.resultbox p{color:var(--muted);font-size:14px}
-
-/* ⭐ FIX: Amazon-Karten NICHT mehr gequetscht */
-.amazon{
-  display:none;
-  margin-top:16px;
-}
-
-.amazonGrid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:18px;
-  margin-top:20px;
-}
-
-.amazonCard{
-  background:#ffffff05;
-  border:1px solid var(--line);
-  border-radius:15px;
-  padding:18px;
-}
-
-.amazonCard h3{font-size:15px;margin:9px 0 6px}
-.amazonCard p{color:var(--muted);font-size:12px;min-height:34px}
-.amazonCard a{display:inline-flex;margin-top:8px;background:#7c5cff1c;border:1px solid #7c5cff4a;padding:8px 10px;border-radius:9px;font-size:12px;font-weight:850}
-
+.advisor{background:linear-gradient(180deg,#ffffff0d,#ffffff04);border:1px solid var(--line);border-radius:25px;padding:25px}.bar{height:6px;background:#182039;border-radius:9px;overflow:hidden;margin-bottom:24px}.bar i{display:block;height:100%;width:33%;background:linear-gradient(90deg,var(--a),var(--b));transition:.25s}.q{font-size:27px;font-weight:900;letter-spacing:-1px;margin-bottom:17px}.opts{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.opt{text-align:left;border:1px solid var(--line);background:#ffffff05;color:#fff;padding:16px;border-radius:14px;cursor:pointer}.opt:hover,.opt.sel{border-color:#8d82ff;background:#7c5cff13}.field{margin:15px 0}.field label{display:block;font-size:13px;font-weight:800;margin-bottom:7px}.field input,.field textarea{width:100%;border:1px solid var(--line);background:#ffffff05;color:#fff;border-radius:13px;padding:13px;outline:none}.field textarea{resize:vertical}.row{display:flex;gap:10px;justify-content:space-between;margin-top:18px}.result{display:none}.resultbox{background:#27d8c70d;border:1px solid #27d8c72d;border-radius:18px;padding:18px}.resultbox h3{margin:7px 0}.resultbox p{color:var(--muted);font-size:14px}.resultitems{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:14px}.resultitems div{background:#ffffff06;border:1px solid var(--line);padding:10px;border-radius:10px;font-size:13px}.searchbox{margin-top:28px}.amazon{display:none;margin-top:16px}.amazonGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.amazonCard{background:#ffffff05;border:1px solid var(--line);border-radius:15px;padding:15px}.amazonCard h3{font-size:15px;margin:9px 0 6px}.amazonCard p{color:var(--muted);font-size:12px;min-height:34px}.amazonCard a{display:inline-flex;margin-top:8px;background:#7c5cff1c;border:1px solid #7c5cff4a;padding:8px 10px;border-radius:9px;font-size:12px;font-weight:850}
 footer{border-top:1px solid var(--line);padding:30px 0 45px;color:#737e96;font-size:12px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
-
-@media(max-width:850px){
-  .hero{grid-template-columns:1fr}
-  .navlinks{display:none}
-  .cards{grid-template-columns:1fr 1fr}
-  .resultitems,.amazonGrid{grid-template-columns:1fr}
-  .opts{grid-template-columns:1fr 1fr}
-}
-
-@media(max-width:560px){
-  .cards,.opts{grid-template-columns:1fr}
-  .hero{padding-top:50px}
-  h1{letter-spacing:-2.5px}
-  .advisor{padding:18px}
-}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.navlinks{display:none}.cards{grid-template-columns:1fr 1fr}.resultitems,.amazonGrid{grid-template-columns:1fr}.opts{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.cards,.opts{grid-template-columns:1fr}.hero{padding-top:50px}h1{letter-spacing:-2.5px}.advisor{padding:18px}}
 </style>
 </head>
 <body>
@@ -123,5 +67,28 @@ footer{border-top:1px solid var(--line);padding:30px 0 45px;color:#737e96;font-s
 
 <script>
 const T={
+de:{how:"So funktioniert's",advisorNav:"Berater",searchNav:"Smart Search",start:"Starten",badge:"Dein smarter Produktfinder",h1a:"Finde nicht irgendeins.",h1b:"Finde das Richtige.",hero:"Beschreibe, was du brauchst. Noviq hilft dir, deine Anforderungen zu strukturieren und daraus passende Produktsuchen zu machen.",heroBtn:"Beratung starten →",learn:"Mehr erfahren",demo:"Demo-Inhalte. Für echte Produktkarten wird später eine sichere Händler-/API-Anbindung ergänzt.",howSmall:"So funktioniert's",howTitle:"Weniger suchen. Besser entscheiden.",howText:"Noviq kombiniert deine Wünsche, dein Budget und den Einsatzzweck zu einer klaren Produktsuche.",c1h:"Anforderungen",c1p:"Du beschreibst, was du brauchst und was dir wichtig ist.",c2h:"Budget",c2p:"Dein Preisrahmen schränkt die Suche sinnvoll ein.",c3h:"Produkte",c3p:"Noviq erstellt direkte Suchwege zu passenden Händlern.",advisorSmall:"Kaufberater",advisorTitle:"In 3 Fragen zu deiner Produktsuche.",advisorText:"Teste den Berater und erhalte anschließend passende Amazon-Suchlinks.",back:"← Zurück",next:"Weiter →",searchTitle:"Beschreibe deinen Wunsch.",searchText:"Schreib frei, was du suchst. Noviq macht daraus direkte Amazon.de-Suchen.",wishLabel:"Was suchst du?",wishPh:"z. B. Gaming-Laptop, maximal 900 €, leise, für Schule und Gaming",budgetLabel:"Maximales Budget",budgetPh:"900",searchBtn:"Amazon-Suchen erstellen →",foot:"Preise und Verfügbarkeit bitte beim jeweiligen Händler prüfen.",result:"Dein Ergebnis",open:"Amazon öffnen →",empty:"Bitte wähle zuerst eine Option.",done:"fertig",recommend:"Passende Suchrichtung",restart:"Neue Beratung",searches:"Passende Amazon-Suchen",searchIntro:"Die folgenden Links öffnen Amazon.de mit deiner Suchanfrage."},
+en:{how:"How it works",advisorNav:"Advisor",searchNav:"Smart Search",start:"Start",badge:"Your smart product finder",h1a:"Don’t buy just anything.",h1b:"Find the right one.",hero:"Describe what you need. Noviq helps structure your requirements and turns them into focused product searches.",heroBtn:"Start advisor →",learn:"Learn more",demo:"Demo content. Real product cards will later use a secure retailer/API integration.",howSmall:"How it works",howTitle:"Search less. Decide better.",howText:"Noviq combines your wishes, budget and use case into a focused product search.",c1h:"Requirements",c1p:"Describe what you need and what matters most.",c2h:"Budget",c2p:"Your price range keeps the search focused.",c3h:"Products",c3p:"Noviq creates direct search paths to suitable retailers.",advisorSmall:"Buying advisor",advisorTitle:"Answer 3 questions to shape your search.",advisorText:"Try the advisor and get matching Amazon search links.",back:"← Back",next:"Next →",searchTitle:"Describe what you need.",searchText:"Write freely what you are looking for. Noviq turns it into direct Amazon.de searches.",wishLabel:"What are you looking for?",wishPh:"e.g. gaming laptop, max €900, quiet, for school and gaming",budgetLabel:"Maximum budget",budgetPh:"900",searchBtn:"Create Amazon searches →",foot:"Check prices and availability with the respective retailer.",result:"Your result",open:"Open Amazon →",empty:"Please choose an option first.",done:"done",recommend:"Suggested search direction",restart:"New advisor",searches:"Matching Amazon searches",searchIntro:"These links open Amazon.de with your search request."}
+};
+let L="de",s=0,a={cat:"",budget:"",use:""};
+const stepEl=()=>document.getElementById("steps");
+function lang(x){L=x;document.documentElement.lang=x;document.getElementById("de").classList.toggle("on",x==="de");document.getElementById("en").classList.toggle("on",x==="en");document.querySelectorAll("[data-i]").forEach(e=>e.innerHTML=T[x][e.dataset.i]||e.innerHTML);document.querySelectorAll("[data-i-ph]").forEach(e=>e.placeholder=T[x][e.dataset.iPh]||e.placeholder);render()}
+const questions=[
+{q:{de:"Was möchtest du kaufen?",en:"What do you want to buy?"},o:[["💻","Laptop"],["📱","Smartphone"],["🖥️","Monitor"],["🎮","Gaming-Zubehör"]]},
+{q:{de:"Wie hoch ist dein Budget?",en:"What is your budget?"},budget:true},
+{q:{de:"Wofür brauchst du es hauptsächlich?",en:"What will you mainly use it for?"},o:[["🏠","Alltag / Everyday"],["🎓","Schule / School"],["🎮","Gaming"],["💼","Arbeit / Work"]]}
+];
+function render(){document.getElementById("progress").style.width=((s+1)/3*100)+"%";if(s===1)stepEl().innerHTML='<div class="q">'+questions[s].q[L]+'</div><div class="field"><label>'+T[L].budgetLabel+'</label><input id="stepBudget" type="number" min="1" placeholder="'+T[L].budgetPh+'" value="'+a.budget+'"></div>';else stepEl().innerHTML='<div class="q">'+questions[s].q[L]+'</div><div class="opts">'+questions[s].o.map((x,i)=>'<button class="opt '+((s===0&&a.cat===x[1])||(s===2&&a.use===x[1])?'sel':'')+'" onclick="pick('+i+')">'+x[0]+' '+x[1]+'</button>').join("")+'</div>';document.getElementById("back").style.visibility=s?"visible":"hidden";document.getElementById("next").innerHTML=s===2?T[L].recommend+" →":T[L].next}
+function pick(i){let x=questions[s].o[i][1];if(s===0)a.cat=x;else a.use=x;render()}
+function next(){if(s===0&&!a.cat)return alert(T[L].empty);if(s===1){let v=Number(document.getElementById("stepBudget")?.value||0);if(!v)return alert(T[L].empty);a.budget=v}if(s===2&&!a.use)return alert(T[L].empty);s++;if(s>=3)result();else render()}
+function back(){if(s>0){s--;render()}}
+function result(){document.getElementById("steps").innerHTML='<div class="q">'+T[L].result+' 🎯</div><div class="resultbox"><div style="color:#7ff0e3;font-weight:800;font-size:12px">'+T[L].recommend+'</div><h3>'+a.cat+' · '+a.budget+' € · '+a.use+'</h3><p>'+ (L==="de"?"Noviq hat deine Antworten zu einer gezielten Produktsuche zusammengefasst.":"Noviq turned your answers into a focused product search.") +'</p><div class="resultitems"><div>✓ '+a.cat+'</div><div>✓ '+a.budget+' €</div><div>✓ '+a.use+'</div></div></div><button class="btn primary" style="margin-top:12px" onclick="s=0;a={cat:"",budget:"",use:""};render()">'+T[L].restart+'</button>';document.getElementById("nav").style.display="none"}
+function makeSearch(){let q=(document.getElementById("wish").value||"").trim(),b=document.getElementById("budget").value;if(!q){document.getElementById("amazon").style.display="block";document.getElementById("amazon").innerHTML='<div class="resultbox">'+T[L].empty+'</div>';return}let base=q+(b?(L==="de"?" unter "+b+" €":" under €"+b):"");let vars=L==="de"?[["🎯","Direkte Suche",base],["⭐","Preis & Leistung",base+" preis leistung"],["🔎","Bewertungen",base+" bewertungen bestseller"]]:[["🎯","Direct search",base],["⭐","Price & performance",base+" price performance"],["🔎","Reviews",base+" reviews bestseller"]];document.getElementById("amazon").style.display="block";document.getElementById("amazon").innerHTML='<div class="q" style="font-size:20px">'+T[L].searches+'</div><p style="color:var(--muted);font-size:13px">'+T[L].searchIntro+'</p><div class="amazonGrid">'+vars.map(v=>'<div class="amazonCard"><div style="font-size:24px">'+v[0]+'</div><h3>'+v[1]+'</h3><p>'+esc(v[2])+'</p><a href="https://www.amazon.de/s?k='+encodeURIComponent(v[2])+'" target="_blank" rel="noopener noreferrer">'+T[L].open+' </a></div>').join("")+'</div>'}
+function esc(x){return x.replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m])||m)}
+render()
+</script>
+</body>
+</html>
+
 de:{how:"So funktioniert's",advisorNav:"Berater",searchNav:"Smart Search",start:"Starten",badge:"Dein smarter Produktfinder",h1a:"Finde nicht irgendeins.",h1b:"Finde das Richtige.",hero:"Beschreibe, was du brauchst. Noviq hilft dir, deine Anforderungen zu strukturieren und daraus passende Produktsuchen zu machen.",heroBtn:"Beratung starten →",learn:"Mehr erfahren",demo:"Demo-Inhalte. Für echte Produktkarten wird später eine sichere Händler-/API-Anbindung ergänzt.",howSmall:"So funktioniert's",howTitle:"Weniger suchen. Besser entscheiden.",howText:"Noviq kombiniert deine Wünsche, dein Budget und den Einsatzzweck zu einer klaren Produktsuche.",c1h:"Anforderungen",c1p:"Du beschreibst, was du brauchst und was dir wichtig ist.",c2h:"Budget",c2p:"Dein Preisrahmen schränkt die Suche sinnvoll ein.",c3h:"Produkte",c3p:"Noviq erstellt direkte Suchwege zu passenden Händlern.",advisorSmall:"Kaufberater",advisorTitle:"In 3 Fragen zu deiner Produktsuche.",advisorText:"Teste den Berater und erhalte anschließend passende Amazon-Suchlinks.",back:"← Zurück",next:"Weiter →",searchTitle:"Beschreibe deinen Wunsch.",searchText:"Schreib frei, was du suchst. Noviq macht daraus direkte Amazon.de-Suchen.",wishLabel:"Was suchst du?",wishPh:"z. B. Gaming-Laptop, maximal 900 €, leise, für Schule und Gaming",budgetLabel:"Maximales Budget",budgetPh:"900",searchBtn:"Amazon-Suchen erstellen →",foot:"Preise und Verfügbarkeit bitte beim jeweiligen Händler prüfen.",result:"Dein Ergebnis",open:"Amazon öffnen →",empty:"Bitte wähle zuerst eine Option.",done:"fertig",recommend:"Passende Suchrichtung",restart:"Neue Beratung",searches:"Passende Amazon-Suchen",searchIntro:"Die folgenden Links öffnen Amazon.de mit deiner Suchanfrage."},
 en:{how:"How it works",advisorNav:"Advisor",searchNav:"Smart Search",start:"Start",badge:"Your smart product finder",h1a:"Don’t buy just anything.",h1b:"Find the right one.",hero:"Describe what you need. Noviq helps structure your requirements and turns them into focused product searches.",heroBtn:"Start advisor →",learn:"Learn more",demo:"Demo content. Real product cards will later use a secure retailer/API integration.",howSmall:"How it works",howTitle:"Search less. Decide better.",howText:"Noviq combines
